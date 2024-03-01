@@ -6,7 +6,7 @@
     font-size: 20px;
 }
 body {
-    background: linear-gradient(to  bottom right, darkblue, blue, darkblue);
+    background: linear-gradient(to right, black, black);
 }
 .container {
     max-width: 1300px;
@@ -31,15 +31,16 @@ nav ul li {
 }
 nav ul li a {
     text-decoration: none;
-    color: black;
+    color: cyan;
     font-weight: bold;
     padding: 18px;
     font-size: 21px;
+    transition: background-color 0.3s ease;
 }
 nav ul li a:hover {
-    background-color: black;
+    background-color: cyan;
     border-radius: 7px;
-    color: cyan;
+    color: black;
 }
 main {
     padding: 40px;
